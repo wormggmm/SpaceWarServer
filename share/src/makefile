@@ -5,7 +5,7 @@ OBJECTS=md5.o file_log.o md5c.o random.o header_debug.o tools.o utilities.o mini
 SRCS=md5.cpp file_log.cpp md5c.cpp random.cpp header_debug.cpp tools.cpp utilities.cpp minilzo.c
 TARGET=libshare.a
 
-cc=g++-4.4
+cc=g++
 
 $(TARGET):$(OBJECTS)
 		ar crv $(TARGET) $(OBJECTS) 

@@ -9,7 +9,7 @@ INCLUDE= -I./common \
 OBJECTS=itcpclient.o itcpserver.o tcpclient.o tcpserver.o networkthread.o
 CPP_SRCS=itcpclient.cpp itcpserver.cpp tcpclient.cpp tcpserver.cpp networkthread.cpp
 TARGET=libnetwork.a
-cc=g++-4.4
+cc=g++
 
 $(TARGET):$(OBJECTS)
 	ar crv $(TARGET) $(OBJECTS) 

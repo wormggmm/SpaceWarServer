@@ -14,7 +14,7 @@ INCLUDE= -I./common \
 OBJECTS=WGNetProtocolProcess.o WGMapManager.o Core.o WGMapNodeBase.o
 CPP_SRCS=WGNetProtocolProcess.cpp WGMapManager.cpp Core.cpp WGMapNodeBase.cpp
 TARGET=libservercore.a
-cc=g++-4.4
+cc=g++
 
 LIB_DIR=-L $(WORKSPACE_DIR)share/src \
 		-L $(WORKSPACE_DIR)common/src \

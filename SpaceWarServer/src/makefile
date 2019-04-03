@@ -17,7 +17,7 @@ INCLUDE= -I./common \
 OBJECTS=main.o
 CPP_SRCS=main.cpp
 TARGET=sbServer
-cc=g++-4.4
+cc=g++
 LIB_DIR=-L $(WORKSPACE_DIR)share/src \
 		-L $(WORKSPACE_DIR)common/src \
 		-L $(WORKSPACE_DIR)serverCore/src \

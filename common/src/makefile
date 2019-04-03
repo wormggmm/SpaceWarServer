@@ -4,7 +4,7 @@ OBJECTS=Protocol.o
 SRCS=Protocol.cpp
 TARGET=libcommon.a
 
-cc=g++-4.4
+cc=g++
 
 $(TARGET):$(OBJECTS)
 		ar crv $(TARGET) $(OBJECTS) 
